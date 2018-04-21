@@ -1,0 +1,134 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 17, 2018, 7:55:08 AM
+    Author     : cyber
+*/
+body{
+    width:  auto;
+}
+header {
+    height: 140px;
+    width: auto;
+    background: #00cc00;
+    margin: auto;
+    border: 1px solid black;
+}
+header >img {
+    height : 130px;
+    width: 250px;
+    margin:  0;
+    padding-left: 550px;   
+}
+section {
+    height: 450px;
+    border: solid 1px #0099cc;
+}
+#menu {
+    position: relative;   
+    background-color: black;
+    height: 50px;
+    border-bottom:  1px solid whitesmoke;
+}
+
+#menu ul {
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color : #000000;
+}
+
+#menu ul>li {    
+    display: inline;
+    float: left;
+}
+#menu ul>li > a {
+   color: white;
+   display: block;
+   text-align: center;
+   padding: 14px;
+   text-decoration: none;
+}
+
+#menu ul > li > a :hover{
+    background-color: whitesmoke;
+}
+
+section #left{
+    width: 27%;
+    height: 395px;
+    border : solid 2px #000000;
+    background: #333333;
+    float: left;
+    padding: 0;
+    margin: 0;   
+}
+
+section #left ul{
+    margin:0;
+    padding:0;
+    list-style-type: none;
+    padding-left: 30px;
+    height: 100px;
+    background: #666666;
+   
+}
+section #left ul>li> a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+section #right{
+    width: 72%;
+    height: 395px;
+    float: right;
+    margin: 0;
+    padding: 0;
+   
+}
+section #right  #pic1 {
+   padding-top : 20px;
+   padding-left : 30px;
+   width: 350px;
+   height: 165px;
+   border: solid black;
+}
+section #right  #pic2 {
+   padding-top : 20px;
+   padding-left : 30px;
+   width: 350px;
+   height: 165px;
+   border: solid black;
+}
+section #right  #pic3 {
+   padding-top : 20px;
+   padding-left : 30px;
+   width: 350px;
+   height: 165px;
+   border: solid black;
+}
+section #right  #pic4 {
+   padding-top : 20px;
+   padding-left : 30px;
+   width: 350px;
+   height: 165px;
+   border: solid black;
+}
+
+footer{
+    height: 50px;
+    text-align: center;
+   
+    background: #000000;
+    border : 2px solid #000000;
+}
+
+footer > h5 {
+    color: white;
+}
